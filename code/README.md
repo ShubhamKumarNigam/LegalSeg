@@ -7,6 +7,7 @@ This repository contains the implementation of several models for rhetorical rol
 
 The following is the structure of the code repository for rhetorical role classification using various models:
 
+```plaintext
 LegalSeg_Rhetorical_Role_Classification/
 │
 ├── GNN/
