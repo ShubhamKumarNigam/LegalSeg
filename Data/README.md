@@ -1,33 +1,51 @@
 # LegalSeg Rhetorical Role Classification - Data Repository
-# [Dataset Repository Link](https://drive.google.com/file/d/1my359TGjmDDzAf9lh0zcL-PgCcnQd_Z3/view?usp=sharing)
+
+## Data Repository Link
+
+[Data Repository on Google Drive](https://drive.google.com/file/d/1my359TGjmDDzAf9lh0zcL-PgCcnQd_Z3/view?usp=sharing)
+
 This repository contains the datasets used for training, validating, and testing various models for rhetorical role classification in legal documents. The datasets are provided in different formats (CSV, JSON, and folder-based) to suit the needs of each model. Below is a detailed explanation of the dataset organization and file structure.
 
-## Repository Structure
+## Folder Structure
 
-### CSV Files
-
-These CSV files are used by the following models: **GNN**, **Role-Aware**, **all InLegalBERT variants**, and **RhetoricLLaMA**.
-
-
-
-### JSON Files
-
-These JSON files are used by the following models: **MTL** and **ToInLegalBERT**.
-
-
-### Folder-based Structure
-
-The **Hier_BiLSTM_CRF** model uses a folder-based structure with separate files for each document in both the training and test sets.
-
-
-## Dataset Description
-
-The datasets in this repository consist of legal judgments, each annotated with rhetorical role labels. They are organized in various formats (CSV, JSON, folder-based) to match the needs of different models in this repository:
-
-- **CSV Files**: Used by **GNN**, **Role-Aware Transformers**, **InLegalBERT variants**, and **RhetoricLLaMA**. These CSV files contain structured data where each row represents a sentence or document, along with its corresponding rhetorical role label.
-  
-- **JSON Files**: Used by **MTL** and **ToInLegalBERT** models. The JSON format is more flexible, allowing hierarchical data structures that are useful for models requiring complex input/output relationships.
-
-- **Folder-based Structure**: The **Hier_BiLSTM_CRF** model uses separate files for each document. These documents are stored in distinct folders for training and testing.
-
-The **RhetoricLLaMA** model also includes an additional CSV file, `instructions_decision.csv`, which contains the instruction sets used for instruction-tuning.
+```plaintext
+data/
+│
+├── GNN/
+│   ├── test.csv                             # Test data for GNN model
+│   ├── train.csv                            # Training data for GNN model
+│   └── val.csv                              # Validation data for GNN model
+│
+├── Hier_BiLSTM_CRF/
+│   ├── test/                                # Test data folder containing 712 text files
+│   └── train/                               # Training data folder containing 4984 text files
+│
+├── InLegalBERT/
+│   ├── test.csv                             # Test data for InLegalBERT
+│   ├── train.csv                            # Training data for InLegalBERT
+│   └── val.csv                              # Validation data for InLegalBERT
+│
+├── MTL/
+│   ├── json/
+│   │   ├── test.json                        # Test data for MTL in JSON format
+│   │   ├── train.json                       # Training data for MTL in JSON format
+│   │   └── val.json                         # Validation data for MTL in JSON format
+│   └── mtl-data-002.zip                     # Zipped data for MTL
+│
+├── RhetoricLLaMA/
+│   ├── instructions_decision.csv            # Instruction sets for RhetoricLLaMA model fine-tuning
+│   ├── IT_CL.csv                            # Additional data for RhetoricLLaMA model
+│   ├── test.csv                             # Test data for RhetoricLLaMA
+│   ├── test_Build.csv                       # Test build data for RhetoricLLaMA
+│   ├── train.csv                            # Training data for RhetoricLLaMA
+│   └── val.csv                              # Validation data for RhetoricLLaMA
+│
+├── Role-Aware/
+│   ├── test.csv                             # Test data for Role-Aware Transformers
+│   ├── train.csv                            # Training data for Role-Aware Transformers
+│   └── val.csv                              # Validation data for Role-Aware Transformers
+│
+└── ToInLegalBERT/
+    ├── test.json                            # Test data for ToInLegalBERT
+    ├── train.json                           # Training data for ToInLegalBERT
+    └── val.json                             # Validation data for ToInLegalBERT
