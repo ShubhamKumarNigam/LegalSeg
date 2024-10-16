@@ -18,9 +18,9 @@ LegalSeg_Rhetorical_Role_Classification/
 │       ├── Hier_BiLSTM_CRF.py                 # Hierarchical BiLSTM-CRF model definition
 │       ├── submodels.py                       # Sub-models for Hierarchical BiLSTM-CRF
 │   └── infer.py                               # Inference script for Hier_BiLSTM_CRF
-│   └── prepare_data.py                      # Data preparation for Hier_BiLSTM_CRF
-│   └── run.py                               # Script to run the training and evaluation
-│   └── train.py                             # Training script for Hier_BiLSTM_CRF
+│   └── prepare_data.py                        # Data preparation for Hier_BiLSTM_CRF
+│   └── run.py                                 # Script to run the training and evaluation
+│   └── train.py                               # Training script for Hier_BiLSTM_CRF
 │
 ├── InLegalBERT/
 │   ├── InLegalBERT(i).py                      # InLegalBERT model with the current sentence as input
