@@ -44,7 +44,7 @@ LegalSeg_Rhetorical_Role_Classification/
 │   ├── Role-Aware.py                          # Role-Aware Transformers implementation
 │   └── Role-Aware_label_definitions.py        # Role-Aware Transformers with label definitions
 │
-├── ToInLegalBERT/
+└── ToInLegalBERT/
     └── code/
         ├── config.py                          # Configuration file for ToInLegalBERT
         └── ToInLegalBERT.py                   # TransformerOverInLegalBERT model implementation
