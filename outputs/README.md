@@ -4,7 +4,7 @@ This folder contains the predicted CSV files for each model used in the rhetoric
 
 ## Output Repository Link
 
-[Output Repository Link]([https://drive.google.com/file/d/1714Ivfu7n-VX1kDxTzN5jUEtwz4PO48S/view?usp=sharing](https://drive.google.com/file/d/1714Ivfu7n-VX1kDxTzN5jUEtwz4PO48S/view?usp=sharing))
+[Output Repository Link](https://iitk-my.sharepoint.com/personal/sknigam_iitk_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsknigam%5Fiitk%5Fac%5Fin%2FDocuments%2FServer%5FData%2FLegalSeg%2FOutput&ga=1)
 
 ## Folder Structure
 
