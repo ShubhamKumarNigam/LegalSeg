@@ -3,7 +3,7 @@
 This folder contains the saved models for each of the different architectures used in the rhetorical role classification task. The models are stored in various formats such as `.pt`, `.tar`, and `.safetensors`.
 
 ## Saved Models Repository Link
-[Saved Models Repository Link](https://drive.google.com/file/d/1JnY_rcj2DwPCUjyWL32ve2iYo3P2ljxG/view?usp=sharing)
+[Saved Models Repository Link](https://iitk-my.sharepoint.com/personal/sknigam_iitk_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsknigam%5Fiitk%5Fac%5Fin%2FDocuments%2FServer%5FData%2FLegalSeg%2Fsaved%20models&ga=1)
 
 ## Folder Structure
 
