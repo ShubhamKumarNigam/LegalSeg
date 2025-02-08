@@ -4,7 +4,7 @@ This folder contains the predicted CSV files for each model used in the rhetoric
 
 ## Output Repository Link
 
-[Output Repository Link](https://drive.google.com/file/d/1714Ivfu7n-VX1kDxTzN5jUEtwz4PO48S/view?usp=sharing)
+[Output Repository Link]([https://drive.google.com/file/d/1714Ivfu7n-VX1kDxTzN5jUEtwz4PO48S/view?usp=sharing](https://drive.google.com/file/d/1714Ivfu7n-VX1kDxTzN5jUEtwz4PO48S/view?usp=sharing))
 
 ## Folder Structure
 
