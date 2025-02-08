@@ -45,13 +45,13 @@ LegalSeg_Rhetorical_Role_Classification/
 │   └── Role-Aware_label_definitions.py        # Role-Aware Transformers with label definitions
 │
 ├── ToInLegalBERT/
-│   └── code/
-│       ├── config.py                          # Configuration file for ToInLegalBERT
-│       └── ToInLegalBERT.py                   # TransformerOverInLegalBERT model implementation
-│   └── rhetorical_roles_classification/
-│       ├── embedding.py                       # Embedding generation for ToInLegalBERT
-│       ├── metrics_tracker.py                 # Metrics tracking during training and evaluation
-│       ├── rhetorical_roles_dataset.py        # Dataset processing for ToInLegalBERT
-│       ├── test.py                            # Test script for ToInLegalBERT
-│       ├── train.py                           # Training script for ToInLegalBERT
-│       └── transformer_over_bert.py           # TransformerOverInLegalBERT model script
+    └── code/
+        ├── config.py                          # Configuration file for ToInLegalBERT
+        └── ToInLegalBERT.py                   # TransformerOverInLegalBERT model implementation
+    └── rhetorical_roles_classification/
+        ├── embedding.py                       # Embedding generation for ToInLegalBERT
+        ├── metrics_tracker.py                 # Metrics tracking during training and evaluation
+        ├── rhetorical_roles_dataset.py        # Dataset processing for ToInLegalBERT
+        ├── test.py                            # Test script for ToInLegalBERT
+        ├── train.py                           # Training script for ToInLegalBERT
+        └── transformer_over_bert.py           # TransformerOverInLegalBERT model script
