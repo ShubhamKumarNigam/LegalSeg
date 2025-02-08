@@ -19,7 +19,8 @@ data/
 ├── Hier_BiLSTM_CRF/
 │   ├── test/                                # Test data folder containing 712 text files
 │   └── train/                               # Training data folder containing 4984 text files
-│
+│   └── val/                                 # Validation data folder containing 1424 text files
+|
 ├── InLegalBERT/
 │   ├── test.csv                             # Test data for InLegalBERT
 │   ├── train.csv                            # Training data for InLegalBERT
