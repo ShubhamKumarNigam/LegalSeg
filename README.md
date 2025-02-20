@@ -14,7 +14,7 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
   <a href="https://arxiv.org/abs/2502.05836"><b>[📜 ArXiv]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/nyayaanumana-and-inlegalllama-models-6755809db3826df8fd96d570"><b>[🤗 HF Models]</b></a> •
   <a href="https://github.com/ShubhamKumarNigam/LegalSeg"><b>[<img src="images/icons8-github-16.png" alt="Github" /> GitHub]</b></a> •
-  <a href=""><b>[📝 Google Form to request dataset access]</b></a> 
+  <a href="https://forms.gle/PaUDZNgVi78R4WLK7"><b>[📝 Google Form to request dataset access]</b></a> 
 </p>
 
 <p align="center">
