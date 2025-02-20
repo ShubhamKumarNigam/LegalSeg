@@ -6,7 +6,7 @@ In this paper, we address the task of semantic segmentation of legal documents t
 LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
 </h1>
 
-![task_desc](images/InLegalLlama_task_diagram_mini.png)
+![task_desc](images/Example_diagram.jpg)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
