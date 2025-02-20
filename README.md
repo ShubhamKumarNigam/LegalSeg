@@ -6,7 +6,7 @@ In this paper, we address the task of semantic segmentation of legal documents t
 LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
 </h1>
 
-![task_desc](images/Example_diagram.jpg)
+![task_desc](images/Example_diagram.jpg width ="700" height="700" /)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
@@ -38,7 +38,7 @@ The integration of artificial intelligence (AI) in legal judgment prediction (LJ
 3. **InLegalLlama Generative Model**: An explainable generative Large Language Model (LLM) designed to predict legal outcomes with clear, understandable explanations. InLegalLlama achieved an impressive 76.05% accuracy, outperforming state-of-the-art results from PredEx (51.77%) and the base Llama2 model (57.26%).
 
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
-If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama/issues) or email the authors at
+If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/LegalSeg/issues) or email the authors at
 
 ```shubhamkumarnigam@gmail.com```
 
