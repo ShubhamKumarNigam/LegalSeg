@@ -63,7 +63,4 @@ saved_models/
 │       └── final_model.pth                            # Final model for Role-Aware with label definitions
 │
 └── ToInLegalBERT/
-    ├── ToInlegalBERT-Trial8.zip                       # ToInLegalBERT model (Trial 8)
-    ├── ToInlegalBERT-Trial9.zip                       # ToInLegalBERT model (Trial 9)
-    ├── ToInlegalBERT-Trial10.zip                      # ToInLegalBERT model (Trial 10)
-    └── ToInlegalBERT-Trial11.zip                      # ToInLegalBERT model (Trial 11)
+    └── ToInlegalBERT.zip                      # ToInLegalBERT model (Trial 10)
