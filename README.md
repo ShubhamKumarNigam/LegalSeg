@@ -35,10 +35,7 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 
 The pie chart below shows the distribution of Rhetorical Roles with in the Dataset.
 
-![court_distribution](images/LegalSeg_pie_chart.png)
-
-
-
+<img src="images/LegalSeg_pie_chart.png" width ="400" height="200" />
 
 ## Citation
 If you use this project in your research or other work, please cite it as follows:
