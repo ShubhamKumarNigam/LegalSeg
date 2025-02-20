@@ -10,22 +10,22 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
-  <a href="https://aclanthology.org/2025.coling-main.738/"><b>[📜 Proceedings]</b></a> •
-  <a href="https://arxiv.org/abs/2412.08385"><b>[📜 ArXiv]</b></a> •
+  <a href=><b>[📜 Proceedings]</b></a> •
+  <a href="https://arxiv.org/abs/2502.05836"><b>[📜 ArXiv]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/nyayaanumana-and-inlegalllama-models-6755809db3826df8fd96d570"><b>[🤗 HF Models]</b></a> •
   <a href="https://github.com/ShubhamKumarNigam/LegalSeg"><b>[<img src="images/icons8-github-16.png" alt="Github" /> GitHub]</b></a> •
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5f6Ux_kqhu26Q0o0Xh6ep3hDlEMC_hJvdRDARULWIMOQytw/viewform?usp=header"><b>[📝 Google Form to request dataset access]</b></a> 
+  <a href=""><b>[📝 Google Form to request dataset access]</b></a> 
 </p>
 
 <p align="center">
   This is the official implementation of the paper:
 </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/2412.08385">LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
-</a> (to appear in <strong>[COLING 2025](https://coling2025.org/)</strong>)
+  <a href="https://arxiv.org/abs/2502.05836">LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
+</a> (to appear in <strong>[NAACL 2025](https://2025.naacl.org/)</strong>)
 </p>
 <p align="center">
- <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/balaramamahanthi-deepak-patnaik-b83043246/">Balaramamahanthi Deepak Patnaik</a>, <a href="https://www.linkedin.com/in/shivamm1602/">Shivam Mishra</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
+ <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/tanmay-dubey-6062a3205/">Tanmay Dubey </a>, <a href="https://www.linkedin.com/in/govind-sharma-0374251b2/">Govind Sharma</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
 </p>
 
 ## Overview
@@ -40,7 +40,7 @@ The integration of artificial intelligence (AI) in legal judgment prediction (LJ
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
 If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama/issues) or email the authors at
 
-```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivam1602m@gmail.com```
+```shubhamkumarnigam@gmail.com```
 
 ## NyayaAnumana
 
@@ -130,28 +130,10 @@ Ensure you have the necessary hardware and software requirements in place to rep
 ## Citation
 If you use this project in your research or other work, please cite it as follows:
 ```
-@inproceedings{nigam-etal-2025-nyayaanumana,
-    title = "{NYAYAANUMANA} and {INLEGALLLAMA}: The Largest {I}ndian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis",
-    author = "Nigam, Shubham Kumar  and
-      Balaramamahanthi, Deepak Patnaik  and
-      Mishra, Shivam  and
-      Shallum, Noel  and
-      Ghosh, Kripabandhu  and
-      Bhattacharya, Arnab",
-    editor = "Rambow, Owen  and
-      Wanner, Leo  and
-      Apidianaki, Marianna  and
-      Al-Khalifa, Hend  and
-      Eugenio, Barbara Di  and
-      Schockaert, Steven",
-    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
-    month = jan,
-    year = "2025",
-    address = "Abu Dhabi, UAE",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.coling-main.738/",
-    pages = "11135--11160",
-    abstract = "The integration of artificial intelligence (AI) in legal judgment prediction (LJP) has the potential to transform the legal landscape, particularly in jurisdictions like India, where a significant backlog of cases burdens the legal system. This paper introduces NyayaAnumana, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. NyayaAnumana, which combines the words {\textquotedblleft}Nyaya{\textquotedblright} and {\textquotedblleft}Anumana{\textquotedblright} that means {\textquotedblleft}judgment{\textquotedblright} and {\textquotedblleft}inference{\textquotedblright} respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. In addition to the dataset, we present INLegalLlama, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts. Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90{\%} F1-score in prediction tasks. INLegalLlama not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions."
-}
+@article{nigam2025legalseg,
+  title={LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification},
+  author={Nigam, Shubham Kumar and Dubey, Tanmay and Sharma, Govind and Shallum, Noel and Ghosh, Kripabandhu and Bhattacharya, Arnab},
+  journal={arXiv preprint arXiv:2502.05836},
+  year={2025}
 }
 
