@@ -62,7 +62,7 @@ The dataset is categorized into single and multi based on the target classificat
    - Partially Accepted (label-2/class-2): Cases with multiple judgments, where some are accepted and others are rejected.
 
 Choose the categorization that best suits your usecase.
-<img src="images/NyayaAnumana.png" width ="700" height="700" />
+<img src="images/LegalSeg_pie_chart.png" width ="700" height="700" />
 
 ### Data Statistics
 The dataset is categorized into ‘single’ and ‘multi’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels.
@@ -75,7 +75,7 @@ The dataset is categorized into ‘single’ and ‘multi’ decision types, wit
 </table>
 The below pie chart shows the distribution of cases in different courts in percentage.This breakdown helps in understanding the diversity within the dataset and the varying complexities associated with different court levels.
 
-![court_distribution](images/NyayaAnumana_Court_Distribution.png)
+![court_distribution](images/LegalSeg_pie_chart.png)
 
 ## INLegalLlama
 In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system.The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts.
