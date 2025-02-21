@@ -10,7 +10,7 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 
 <img src="images/Example_diagram.jpg" width ="900" height="400" />
 <img src="images/dataset_comparison.png" width ="800" height="400" />
-Above table summarizes various legal corpora for rhetorical role classification and we can see a comparison of our dataset(consists of 7,120 an-notated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
+Above table summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 an-notated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
 <img src="images/dataset_statistics.png" width ="650" height="400" />
 The table above is showing various statistics regarding the documents
 and sentences within the dataset, including the av-
