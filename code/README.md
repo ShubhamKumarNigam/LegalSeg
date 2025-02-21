@@ -13,7 +13,7 @@ LegalSeg_Rhetorical_Role_Classification/
 ├── GNN/
 │   └── GNN.py                                 # Graph Neural Network implementation for rhetorical role classification
 │
-├── Hier_BiLSTM_CRF/
+├── Hier_BiLSTM_CRF/                           # Refer "https://github.com/Law-AI/semantic-segmentation" this repository.
 │   └── model/
 │       ├── Hier_BiLSTM_CRF.py                 # Hierarchical BiLSTM-CRF model definition
 │       ├── submodels.py                       # Sub-models for Hierarchical BiLSTM-CRF
@@ -31,7 +31,7 @@ LegalSeg_Rhetorical_Role_Classification/
 │   ├── InLegalBERT(i-2, i-1, i).py            # InLegalBERT model with two previous sentences and the current sentence
 │   └── InLegalBERT(pos, i).py                 # InLegalBERT model with positional information
 │
-├── MTL/
+├── MTL/                                       # Refer "https://github.com/Exploration-Lab/Rhetorical-Roles" this repository.
 │   ├── MTL.py                                 # Multi-task Learning model for rhetorical role classification
 │   ├── embeddings_generation.py               # Embedding generation for MTL
 │   └── Shift_embeddings.py                    # Shift embeddings script for MTL
@@ -45,7 +45,7 @@ LegalSeg_Rhetorical_Role_Classification/
 |   ├── Role-Aware_CI.py                       # Role-Aware Class Imbalence Transformers implementation
 │   └── Role-Aware_label_definitions.py        # Role-Aware Transformers with label definitions
 │
-└── ToInLegalBERT/
+└── ToInLegalBERT/                             # Refer "https://github.com/GM862001/RhetoricalRolesClassification" this repository.
     └── code/
         ├── config.py                          # Configuration file for ToInLegalBERT
         └── ToInLegalBERT.py                   # TransformerOverInLegalBERT model implementation
