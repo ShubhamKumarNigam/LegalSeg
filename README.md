@@ -8,9 +8,9 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 
 
 <img src="images/Example_diagram.jpg" width ="900" height="400" />
-<img src="images/dataset_comparison.png" width ="900" height="400" />
+<img src="images/dataset_comparison.png" width ="800" height="400" />
 <img src="images/dataset_statistics.png" width ="650" height="400" />
-<img src="images/models_comparison.png" width ="900" height="400" />
+<img src="images/models_comparison.png" width ="800" height="400" />
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
