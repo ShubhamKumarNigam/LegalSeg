@@ -26,7 +26,7 @@ data/
 │   ├── train.csv                            # Training data for InLegalBERT
 │   └── val.csv                              # Validation data for InLegalBERT
 │
-├── MTL/data/
+├── MTL/
 │   ├── json/
 │   │   ├── test.json                        # Test data for MTL in JSON format
 │   │   ├── train.json                       # Training data for MTL in JSON format
