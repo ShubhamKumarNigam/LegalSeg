@@ -1,5 +1,6 @@
 # LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
 In this paper, we address the task of semantic segmentation of legal documents through rhetorical role classification, with a focus on Indian legal judgments. We introduce **LegalSeg**, the largest annotated dataset for this task, comprising over 7,000 documents and 1.4 million sentences, labeled with 7 rhetorical roles. To benchmark performance, we evaluate multiple state-of-the-art models, including Hierarchical BiLSTM-CRF, TransformerOverInLegalBERT (ToInLegalBERT), Graph Neural Networks (GNNs), and Role-Aware Transformers, alongside an exploratory **RhetoricLLaMA**, an instruction-tuned large language model. Our results demonstrate that models incorporating broader context, structural relationships, and sequential sentence information outperform those relying solely on sentence-level features. Additionally, we conducted experiments using surrounding context and predicted or actual labels of neighboring sentences to assess their impact on classification accuracy. Despite these advancements, challenges persist in distinguishing between closely related roles and addressing class imbalance. Our work underscores the potential of advanced techniques for improving legal document understanding and sets a strong foundation for future research in legal NLP.
+
 <h1 align="center">
 <img src="images/L-NLP_Logo_Transparent.png" width="100" alt="L-NLP" />
 <br>
@@ -15,6 +16,7 @@ The table above is showing various statistics regarding the documents
 and sentences within the dataset, including the av-
 erage number of sentences per document and token
 counts presented in Table 2.
+
 <img src="images/models_comparison.png" width ="800" height="400" />
 Above are the Performance Comparison of Models on Rhetor-
 ical Role Classification. In the Model column, i indi-
@@ -22,6 +24,7 @@ cates the current sentence, i − 1 means the previous
 sentence, and i + 1 means the next sentence. label_t
 and label_p refer to the true and predicted labels of the
 previous sentences. The best results are in bold.
+
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
   <a href=><b>[📜 Proceedings]</b></a> •
