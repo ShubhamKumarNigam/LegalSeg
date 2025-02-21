@@ -9,9 +9,19 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 
 <img src="images/Example_diagram.jpg" width ="900" height="400" />
 <img src="images/dataset_comparison.png" width ="800" height="400" />
+Above table summarizes various legal corpora for rhetorical role classification and we can see a comparison of our dataset(consists of 7,120 an-notated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
 <img src="images/dataset_statistics.png" width ="650" height="400" />
+The table above is showing various statistics regarding the documents
+and sentences within the dataset, including the av-
+erage number of sentences per document and token
+counts presented in Table 2.
 <img src="images/models_comparison.png" width ="800" height="400" />
-
+Above are the Performance Comparison of Models on Rhetor-
+ical Role Classification. In the Model column, i indi-
+cates the current sentence, i − 1 means the previous
+sentence, and i + 1 means the next sentence. label_t
+and label_p refer to the true and predicted labels of the
+previous sentences. The best results are in bold.
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
   <a href=><b>[📜 Proceedings]</b></a> •
