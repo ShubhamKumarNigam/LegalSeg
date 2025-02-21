@@ -47,7 +47,7 @@ previous sentences. The best results are in bold.
 
 If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/LegalSeg/issues) or email the authors at
 
-```shubhamkumarnigam@gmail.com```
+```shubhamkumarnigam@gmail.com``` ```tanmay.dubey2222@gmail.com``` ```govindsharma0406@gmail.com```
 
 The pie chart below shows the distribution of Rhetorical Roles with in the Dataset.
 
