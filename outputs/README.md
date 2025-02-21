@@ -33,7 +33,9 @@ output/
 │   └── rhetoricllama_predictions.csv        # Predictions from the RhetoricLLaMA model
 │
 ├── Role-Aware/
-│   └── role_aware_predictions.csv           # Predictions from the Role-Aware Transformers model
+│   ├── role_aware_predictions.csv           # Predictions from the Role-Aware Transformers model
+|   ├── predictions_CI.csv                   # Predictions from the Role-Aware Class Inbalence Transformers model
+|   └── role-aware_label_definations_predictions.csv # Predictions from the Role-Aware label defination predictions Transformers model
 │
 └── ToInLegalBERT/
     └── toinlegalbert_predictions.csv        # Predictions from the ToInLegalBERT model
