@@ -15,11 +15,6 @@ data/
 │   ├── test/                                # Test data folder containing 712 text files
 │   └── train/                               # Training data folder containing 4984 text files
 │   └── val/                                 # Validation data folder containing 1424 text files
-|
-├── InLegalBERT/
-│   ├── test.csv                             # Test data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
-│   ├── train.csv                            # Training data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
-│   └── val.csv                              # Validation data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
 │
 ├── MTL/
 │   ├── json/
@@ -28,7 +23,12 @@ data/
 │   │   └── val.json                         # Validation data for MTL in JSON format
 │   └── mtl-data-002.zip                     # Zipped data for MTL
 │
-└── ToInLegalBERT/
-    ├── test.json                            # Test data for ToInLegalBERT
-    ├── train.json                           # Training data for ToInLegalBERT
-    └── val.json                             # Validation data for ToInLegalBERT
+├── ToInLegalBERT/
+|    ├── test.json                            # Test data for ToInLegalBERT
+|    ├── train.json                           # Training data for ToInLegalBERT
+|    └── val.json                             # Validation data for ToInLegalBERT
+|
+|
+├── test.csv                                  # Test data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
+├── train.csv                                 # Training data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
+└── val.csv                                   # Validation data for InLegalBERT/Role-Aware/GNN/Rhetoric-LLaMA
