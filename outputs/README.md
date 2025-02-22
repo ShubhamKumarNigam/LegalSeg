@@ -4,7 +4,7 @@ This folder contains the predicted CSV files for each model used in the rhetoric
 
 ## Huggingface Output/Predictions Link 
 
-[Predictions Link](https://huggingface.co/collections/L-NLProc/legalseg-predictions-67b835db622b213fdfebc357)
+[Output/Predictions Link](https://huggingface.co/collections/L-NLProc/legalseg-predictions-67b835db622b213fdfebc357)
 
 ## Folder Structure
 
