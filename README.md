@@ -22,7 +22,8 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 </p>
 <p align="center">
   <a href="https://arxiv.org/abs/2502.05836">LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification
-</a> (to appear in <strong>[NAACL 2025](https://2025.naacl.org/)</strong>)
+</a>, to appear in <strong> <a href="https://2025.naacl.org/">NAACL 2025</a> </strong>
+   
 </p>
 <p align="center">
  <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/tanmay-dubey-6062a3205/">Tanmay Dubey </a>, <a href="https://www.linkedin.com/in/govind-sharma-0374251b2/">Govind Sharma</a>, <a href="https://www.linkedin.com/in/noelshallum/">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
