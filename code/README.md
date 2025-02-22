@@ -58,7 +58,8 @@ LegalSeg_Rhetorical_Role_Classification/
         ├── train.py                           # Training script for ToInLegalBERT
         └── transformer_over_bert.py           # TransformerOverInLegalBERT model script
 
-#We have taken reference from the GitHub repositories linked below on how to run the code. You can refer to the same links given below.
+#We have taken reference from the GitHub repositories linked below on how to run the code.
+You can refer to the same links given below.
 ```
 ➡ **[Refer this repository for Hier_BiLSTM_CRF](https://github.com/Law-AI/semantic-segmentation)**  
 ➡ **[Refer this repository for MTL](https://github.com/Exploration-Lab/Rhetorical-Roles)**  
