@@ -8,23 +8,6 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 </h1>
 
 
-<img src="images/Example_diagram.jpg" width ="900" height="400" />
-<img src="images/dataset_comparison.png" width ="800" height="400" />
-Above table summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 an-notated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
-<img src="images/dataset_statistics.png" width ="650" height="400" />
-The table above is showing various statistics regarding the documents
-and sentences within the dataset, including the av-
-erage number of sentences per document and token
-counts presented in Table 2.
-
-<img src="images/models_comparison.png" width ="800" height="400" />
-Above are the Performance Comparison of Models on Rhetor-
-ical Role Classification. In the Model column, i indi-
-cates the current sentence, i − 1 means the previous
-sentence, and i + 1 means the next sentence. label_t
-and label_p refer to the true and predicted labels of the
-previous sentences. The best results are in bold.
-
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
   <a href=><b>[📜 Proceedings]</b></a> •
@@ -42,12 +25,30 @@ previous sentences. The best results are in bold.
 </a> (to appear in <strong>[NAACL 2025](https://2025.naacl.org/)</strong>)
 </p>
 <p align="center">
- <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/tanmay-dubey-6062a3205/">Tanmay Dubey </a>, <a href="https://www.linkedin.com/in/govind-sharma-0374251b2/">Govind Sharma</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
+ <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/tanmay-dubey-6062a3205/">Tanmay Dubey </a>, <a href="https://www.linkedin.com/in/govind-sharma-0374251b2/">Govind Sharma</a>, <a href="https://www.linkedin.com/in/noelshallum/">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
 </p>
 
 If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/LegalSeg/issues) or email the authors at
 
 ```shubhamkumarnigam@gmail.com``` ```tanmay.dubey2222@gmail.com``` ```govindsharma0406@gmail.com```
+
+<img src="images/Example_diagram.jpg" width ="900" height="400" />
+<img src="images/dataset_comparison.png" width ="800" height="400" />
+Above table summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 an-notated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
+<img src="images/dataset_statistics.png" width ="650" height="400" />
+The table above is showing various statistics regarding the documents
+and sentences within the dataset, including the av-
+erage number of sentences per document and token
+counts presented in Table 2.
+
+<img src="images/models_comparison.png" width ="800" height="400" />
+Above are the Performance Comparison of Models on Rhetor-
+ical Role Classification. In the Model column, i indi-
+cates the current sentence, i − 1 means the previous
+sentence, and i + 1 means the next sentence. label_t
+and label_p refer to the true and predicted labels of the
+previous sentences. The best results are in bold.
+
 
 The pie chart below shows the distribution of Rhetorical Roles with in the Dataset.
 
