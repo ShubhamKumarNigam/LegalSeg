@@ -21,7 +21,10 @@ data/
 │   │   ├── test.json                        # Test data for MTL in JSON format
 │   │   ├── train.json                       # Training data for MTL in JSON format
 │   │   └── val.json                         # Validation data for MTL in JSON format
-│   └── mtl-data.zip                     # Zipped data for MTL
+│   └── MTL-data.zip                         # Zipped data for MTL
+│
+├── RhetoricLLaMA/
+│    ├──instructions_decision.csv            # Instruction set for fine tuning RhetoricLLaMA.
 │
 ├── ToInLegalBERT/
 |    ├── test.json                            # Test data for ToInLegalBERT
