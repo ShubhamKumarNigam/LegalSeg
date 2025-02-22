@@ -48,8 +48,8 @@ and label_p refer to the true and predicted labels of the previous sentences. Th
 The pie chart below shows the distribution of Rhetorical Roles with in the Dataset.
 <table>
   <tr>
-    <td><img src="images/LegalSeg_pie_chart.png" width ="450" height="300" alt="Distribution Pie Chart" /></td>
-    <td><img src="images/Example_sent.jpg" alt="Example Sentences for each label" /></td>
+    <td><img src="images/LegalSeg_pie_chart.png" width ="450" height="250" alt="Distribution Pie Chart" /></td>
+    <td><img src="images/Example_Sent.png" alt="Example Sentences for each label" /></td>
   </tr>
 </table>
 
