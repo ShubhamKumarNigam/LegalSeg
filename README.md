@@ -34,7 +34,7 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 ```shubhamkumarnigam@gmail.com``` ```tanmay.dubey2222@gmail.com``` ```govindsharma0406@gmail.com```
 
 <img src="images/Example_diagram.jpg" width ="900" height="400" />
-The table below summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 annotated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
+The pie chart below shows the distribution of Rhetorical Roles within the Dataset and the table shows the Example sentences for each label.
 
 <table>
   <tr>
@@ -42,7 +42,7 @@ The table below summarizes various legal corpora for rhetorical role classificat
     <td><img src="images/Example_Sent.png" width ="500" height="250" alt="Example Sentences for each label" /></td>
   </tr>
 </table>
-The pie chart above shows the distribution of Rhetorical Roles within the Dataset and the table shows the Example sentences for each label.
+The table below summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 annotated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
 
 <img src="images/dataset_comparison.png" width ="800" height="400" />
 The table below is showing various statistics regarding the documents and sentences within the dataset, including the average number of sentences per document, average number of token counts per sentence and average number of Tokens per each Label etc for Train Test and Validation dataset presented in Table 2.
