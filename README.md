@@ -37,7 +37,7 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 The table below summarizes various legal corpora for rhetorical role classification and we can see a comparison chart of our dataset(consists of 7,120 annotated legal documents and 14,87,149 sentences.) with the previousely published Datasets.
 
 <img src="images/dataset_comparison.png" width ="800" height="400" />
-The table below is showing various statistics regarding the documents and sentences within the dataset, including the average number of sentences per document and token counts presented in Table 2.
+The table below is showing various statistics regarding the documents and sentences within the dataset, including the average number of sentences per document, average number of token counts per sentence and average number of Tokens per each Label etc for Train Test and Validation dataset presented in Table 2.
 <img src="images/dataset_statistics.png" width ="650" height="400" />
 
 Below are the Performance Comparison of Models on Rhetorical Role Classification. In the Model column, i indicates the current sentence, i − 1 means the previous sentence, and i + 1 means the next sentence. label_t
