@@ -49,7 +49,7 @@ The pie chart below shows the distribution of Rhetorical Roles with in the Datas
 <table>
   <tr>
     <td><img src="images/LegalSeg_pie_chart.png" width ="350" height="250" alt="Distribution Pie Chart" /></td>
-    <td><img src="images/Example_Sent.png" width ="450" height="250" alt="Example Sentences for each label" /></td>
+    <td><img src="images/Example_Sent.png" width ="500" height="250" alt="Example Sentences for each label" /></td>
   </tr>
 </table>
 
