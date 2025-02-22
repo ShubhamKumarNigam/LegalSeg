@@ -1,8 +1,8 @@
 # LegalSeg Rhetorical Role Classification - Data Repository
 
-## Data Repository Link
+## Dataset Access Request
 
-[Data Repository on Onedrive](https://iitk-my.sharepoint.com/personal/sknigam_iitk_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsknigam%5Fiitk%5Fac%5Fin%2FDocuments%2FServer%5FData%2FLegalSeg%2FData&ga=1)
+[Google form for dataset request access](https://forms.gle/PaUDZNgVi78R4WLK7)
 
 This repository contains the datasets used for training, validating, and testing various models for rhetorical role classification in legal documents. The datasets are provided in different formats (CSV, JSON, and folder-based) to suit the needs of each model. Below is a detailed explanation of the dataset organization and file structure.
 
