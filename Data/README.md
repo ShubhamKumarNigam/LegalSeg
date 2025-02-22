@@ -21,7 +21,7 @@ data/
 │   │   ├── test.json                        # Test data for MTL in JSON format
 │   │   ├── train.json                       # Training data for MTL in JSON format
 │   │   └── val.json                         # Validation data for MTL in JSON format
-│   └── mtl-data-002.zip                     # Zipped data for MTL
+│   └── mtl-data.zip                     # Zipped data for MTL
 │
 ├── ToInLegalBERT/
 |    ├── test.json                            # Test data for ToInLegalBERT
