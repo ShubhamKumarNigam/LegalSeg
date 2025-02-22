@@ -14,6 +14,7 @@ LegalSeg_Rhetorical_Role_Classification/
 │   └── GNN.py                                 # Graph Neural Network implementation for rhetorical role classification
 │
 ├── Hier_BiLSTM_CRF/                           [Refer this repository](https://github.com/Law-AI/semantic-segmentation).
+
 │   └── model/
 │       ├── Hier_BiLSTM_CRF.py                 # Hierarchical BiLSTM-CRF model definition
 │       ├── submodels.py                       # Sub-models for Hierarchical BiLSTM-CRF
