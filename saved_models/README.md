@@ -2,8 +2,8 @@
 
 This folder contains the saved models for each of the different architectures used in the rhetorical role classification task. The models are stored in various formats such as `.pt`, `.tar`, and `.safetensors`.
 
-## Saved Models 
-[Saved Models HuggingFace Link](https://huggingface.co/collections/L-NLProc/legalseg-models-67b8b42b5e1b74491fec8345)
+## Saved Models on HuggingFace
+[Saved Models](https://huggingface.co/collections/L-NLProc/legalseg-models-67b8b42b5e1b74491fec8345)
 
 ## Folder Structure
 
