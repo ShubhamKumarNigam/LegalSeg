@@ -64,3 +64,4 @@ saved_models/
 │
 └── ToInLegalBERT/
     └── ToInlegalBERT.zip                              # ToInLegalBERT model
+```
