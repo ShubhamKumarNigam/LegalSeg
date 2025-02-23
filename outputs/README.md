@@ -39,3 +39,4 @@ output/
 │
 └── ToInLegalBERT/
     └── toinlegalbertpredictions.csv         # Predictions from the ToInLegalBERT model
+```
