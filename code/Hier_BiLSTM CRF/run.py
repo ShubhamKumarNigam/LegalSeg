@@ -11,7 +11,7 @@ def main():
     parser.add_argument('--data_path', default = '../../data/Hier_BiLSTM_CRF/train/', type = str, help = 'Folder to store the annotated text files')
     parser.add_argument('--save_path', default = '../', type = str, help = 'Folder where predictions and models will be saved')
     parser.add_argument('--cat_path', default = 'categories.txt', type = str, help = 'Path to file containing category details')     
-    parser.add_argument('--dataset_size', default = 4984, type = int, help = 'Total no. of docs')
+    parser.add_argument('--dataset_size', default = 6408, type = int, help = 'Total no. of docs')
     parser.add_argument('--num_folds', default = 5, type = int, help = 'No. of folds to divide the dataset into')
     parser.add_argument('--device', default = 'cuda', type = str, help = 'cuda / cpu')
     
