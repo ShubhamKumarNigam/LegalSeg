@@ -10,7 +10,7 @@ LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical R
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
-  <a href=><b>[📜 Proceedings]</b></a> •
+  <a href="https://aclanthology.org/2025.findings-naacl.63/"<b>[📜 Proceedings]</b></a> •
   <a href="https://arxiv.org/abs/2502.05836"><b>[📜 ArXiv]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/legalseg-models-67b8b42b5e1b74491fec8345"><b>[🤗 HF Models]</b></a> •
   <a href="https://github.com/ShubhamKumarNigam/LegalSeg"><b>[<img src="images/icons8-github-16.png" alt="Github" /> GitHub]</b></a> •
