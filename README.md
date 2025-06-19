@@ -55,10 +55,26 @@ and label_p refer to the true and predicted labels of the previous sentences. Th
 ## Citation
 If you use this project in your research or other work, please cite it as follows:
 ```
-@article{nigam2025legalseg,
-  title={LegalSeg: Unlocking the Structure of Indian Legal Judgments Through Rhetorical Role Classification},
-  author={Nigam, Shubham Kumar and Dubey, Tanmay and Sharma, Govind and Shallum, Noel and Ghosh, Kripabandhu and Bhattacharya, Arnab},
-  journal={arXiv preprint arXiv:2502.05836},
-  year={2025}
+@inproceedings{nigam-etal-2025-legalseg,
+    title = "{L}egal{S}eg: Unlocking the Structure of {I}ndian Legal Judgments Through Rhetorical Role Classification",
+    author = "Nigam, Shubham Kumar  and
+      Dubey, Tanmay  and
+      Sharma, Govind  and
+      Shallum, Noel  and
+      Ghosh, Kripabandhu  and
+      Bhattacharya, Arnab",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.63/",
+    doi = "10.18653/v1/2025.findings-naacl.63",
+    pages = "1129--1144",
+    ISBN = "979-8-89176-195-7",
+    abstract = "In this paper, we address the task of semantic segmentation of legal documents through rhetorical role classification, with a focus on Indian legal judgments. We introduce **LegalSeg**, the largest annotated dataset for this task, comprising over 7,000 documents and 1.4 million sentences, labeled with 7 rhetorical roles. To benchmark performance, we evaluate multiple state-of-the-art models, including Hierarchical BiLSTM-CRF, TransformerOverInLegalBERT (ToInLegalBERT), Graph Neural Networks (GNNs), and Role-Aware Transformers, alongside an exploratory **RhetoricLLaMA**, an instruction-tuned large language model. Our results demonstrate that models incorporating broader context, structural relationships, and sequential sentence information outperform those relying solely on sentence-level features. Additionally, we conducted experiments using surrounding context and predicted or actual labels of neighboring sentences to assess their impact on classification accuracy. Despite these advancements, challenges persist in distinguishing between closely related roles and addressing class imbalance. Our work underscores the potential of advanced techniques for improving legal document understanding and sets a strong foundation for future research in legal NLP."
 }
 
