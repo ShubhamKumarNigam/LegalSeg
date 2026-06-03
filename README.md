@@ -55,6 +55,16 @@ and label_p refer to the true and predicted labels of the previous sentences. Th
 ## Citation
 If you use this project in your research or other work, please cite it as follows:
 ```
+@inproceedings{nigam2025legalseg,
+  title={Legalseg: Unlocking the structure of indian legal judgments through rhetorical role classification},
+  author={Nigam, Shubham Kumar and Dubey, Tanmay and Sharma, Govind and Shallum, Noel and Ghosh, Kripabandhu and Bhattacharya, Arnab},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
+  pages={1129--1144},
+  year={2025}
+}
+
+or
+
 @inproceedings{nigam-etal-2025-legalseg,
     title = "{L}egal{S}eg: Unlocking the Structure of {I}ndian Legal Judgments Through Rhetorical Role Classification",
     author = "Nigam, Shubham Kumar  and
