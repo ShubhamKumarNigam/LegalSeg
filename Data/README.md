@@ -2,7 +2,7 @@
 
 ## Dataset Access Request
 
-[Google form for dataset request access](https://forms.gle/PaUDZNgVi78R4WLK7)
+All the datasets in [Hugging Face L-NLProc: Legal Natural Language Processing](https://huggingface.co/L-NLProc) collection [L-NLProc/LegalSeg Datasets](https://huggingface.co/collections/L-NLProc/legalseg-dataset)
 
 This repository contains the datasets used for training, validating, and testing various models for rhetorical role classification in legal documents. The datasets are provided in different formats (CSV, JSON, and folder-based) to suit the needs of each model. Below is a detailed explanation of the dataset organization and file structure.
 
